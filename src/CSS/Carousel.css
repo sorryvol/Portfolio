@@ -1,0 +1,34 @@
+.carousel-flex {
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    position: relative;
+    left: 3vw;
+}
+.right{
+    position: relative;
+    right: 3vw;
+}
+.arrow {
+    width: 7.5vw;
+    height: 7.5vw;
+    cursor: pointer;
+}
+
+
+
+.project-name{
+    position: relative;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20pt;
+    text-align: left;
+    color: #21262A;
+}
+.project-image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 30px;
+}

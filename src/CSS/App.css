@@ -1,0 +1,196 @@
+.nav-splitter {
+  text-align: center;
+  background-color: #21262A;
+  display: flex;
+}
+.main-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+}
+h2 {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 45pt;
+  color: #60E280;
+  left: -35vw;
+}
+a {
+  cursor: pointer;
+}
+
+
+
+.name-page {
+  position: relative;
+  height: 100vh;
+}
+.title-area-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.title-area {
+  position: relative;
+  top: 47.5%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.name-page h1.title {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 75pt;
+  color: #ffffff;
+}
+.name-page h2.title {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20pt;
+  color: rgba(255, 255, 255, 0.7);
+  top: -60px;
+  left: 180px;
+
+}
+.name-page h3.title {
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12pt;
+  color: #60E280;
+  top: 70px;
+  left: -210px;
+}
+.circle-spinner {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 200vh;
+  top: 7.5vh;
+}
+.circle {
+  display: block;
+  margin: auto;
+  width: 90vh; 
+  height: 90vh;
+}
+
+
+
+.introduction-page {
+  position: relative;
+  height: 100vh;
+  left: 10vw;
+}
+.portrait-picture {
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
+.left {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20pt;
+  color: #ffffff;
+  text-align: left;
+}
+.middle-splitter {
+  position: relative;
+  display: flex;
+  left: 4vw;
+  width: 80vw;
+  gap: 7.5vw;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.green-background-top {
+  background-color: #60E280;
+  margin-top: -53px;
+}
+.projects-page{
+  position: relative;
+  left: 10vw;
+  top: -20vh;
+  height: 80vh;
+}
+.display-area {
+  position: relative;
+  left: -10vw;
+}
+.wave-top {
+  position: relative;
+  top: 1px;
+}
+.dark-text {
+  color: #21262A;
+}
+
+
+.green-background-bottom {
+  background-color: #60E280;
+  margin-top: -96px;
+}
+.tech-stack-page {
+  position: relative;
+  left: 10vw;
+  height: 65vh;
+  margin-top: 0px;
+}
+.tech-icon-area {
+  position: relative;
+  left: -10vw;
+}
+.wave-bottom {
+  position: relative;
+  left: -10vw;
+  top: -74px;
+  z-index: -1;
+}
+
+
+
+.contacts-page{
+  position: relative;
+  left: 10vw;
+  top: 35vh;
+  height: 90vh;
+}
+.buttons{
+  margin-top: 2vw;
+  display: flex;
+  gap: 2.5vw;
+}
+.button{
+  padding-top: .5vw;
+  padding-bottom: .5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border: 3px solid #60E280;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25pt;
+  color: #60E280;
+  text-decoration: none;
+}
+.content{
+  position: relative;
+  left: -10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 10vh;
+  gap: 1vw;
+}
+.contacts-header {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25pt;
+  color: #ffffff;
+}
+.contacts-text {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15pt;
+  text-align: center;
+  color: #ffffff;
+}
