@@ -38,6 +38,12 @@ function applyCarouselItemStyles(items: any[]){
     position: relative;
     opacity: 0.8;
   `;
+  const MainItem = styled.div`
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 30px;
+  `;
   let finalItems: any[] = [];
   for (let i = 0; i < items.length; i++){
     if (i === 1){

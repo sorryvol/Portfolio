@@ -1,5 +1,8 @@
 .carousel-flex {
+    position: relative;
     display: flex;
+    left: 7.5vw;
+    width: 85vw;
     gap: 3vw;
     justify-content: center;
     align-items: center;
@@ -28,7 +31,7 @@
     color: #21262A;
 }
 .project-image{
-    width: 20vw;
-    height: 20vw;
+    width: 80%;
+    height: 80%;
     border-radius: 30px;
 }
